@@ -9,7 +9,14 @@ public class CalculatorImpl implements Calculator {
 
     @Override
     public int getMaximum() {
-        return 0;
+        int biggestNum=list.get(0);
+        for(int i: list){
+            if(biggestNum < i){
+                biggestNum=i;
+            }
+        }
+        System.out.println("Maximum: " + biggestNum);
+        return biggestNum;
     }
 
     @Override

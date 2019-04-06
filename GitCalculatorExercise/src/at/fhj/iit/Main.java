@@ -14,7 +14,7 @@ public class Main {
 		// add other integers
 		
 		calc.getMinimum();
-		
+		calc.getMaximum();
 		// output highest number
 		
 		// output sum of all numbers
