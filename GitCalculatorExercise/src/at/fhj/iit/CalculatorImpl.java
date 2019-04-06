@@ -9,10 +9,10 @@ public class CalculatorImpl implements Calculator {
 
     @Override
     public int getMaximum() {
-        int biggestNum=list.get(0);
-        for(int i: list){
-            if(biggestNum < i){
-                biggestNum=i;
+        int biggestNum = list.get(0);
+        for (int i : list) {
+            if (biggestNum < i) {
+                biggestNum = i;
             }
         }
         System.out.println("Maximum: " + biggestNum);
@@ -21,13 +21,13 @@ public class CalculatorImpl implements Calculator {
 
     @Override
     public int getMinimum() {
-        int smallestNum=list.get(0);
-        for(int i: list){
-            if(smallestNum>i){
-                smallestNum=i;
+        int smallestNum = list.get(0);
+        for (int i : list) {
+            if (smallestNum > i) {
+                smallestNum = i;
             }
         }
-        System.out.println("Minimum: "+smallestNum);
+        System.out.println("Minimum: " + smallestNum);
         return smallestNum;
     }
 
@@ -38,13 +38,14 @@ public class CalculatorImpl implements Calculator {
 
 
     @Override
-    public int sum(){
+    public int sum() {
         int sumOfNum = 0;
-        for(int i : list){
-            sumOfNum+=i;
+        for (int i : list) {
+            sumOfNum += i;
         }
-        System.out.println("Sum: "+sumOfNum);
+        System.out.println("Sum: " + sumOfNum);
         return sumOfNum;
     }
+
 
 }
