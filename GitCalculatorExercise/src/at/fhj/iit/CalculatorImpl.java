@@ -14,7 +14,14 @@ public class CalculatorImpl implements Calculator {
 
     @Override
     public int getMinimum() {
-        return 0;
+        int smallestNum=list.get(0);
+        for(int i: list){
+            if(smallestNum>i){
+                smallestNum=i;
+            }
+        }
+        System.out.println("Minimum: "+smallestNum);
+        return smallestNum;
     }
 
     @Override

@@ -6,13 +6,14 @@ public class Main {
 		
 		Calculator calc = new CalculatorImpl();
 		
-		calc.add(20);	// currently highest number
-		calc.add(4);	// currently lowester number
-		calc.add(16);
+		calc.addValue(20);	// currently highest number
+		calc.addValue(4);	// currently lowester number
+		calc.addValue(16);
+		calc.addValue(2);
 		
 		// add other integers
 		
-		// output lowest number 
+		calc.getMinimum();
 		
 		// output highest number
 		
