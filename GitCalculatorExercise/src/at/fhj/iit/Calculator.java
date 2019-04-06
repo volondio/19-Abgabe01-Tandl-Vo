@@ -67,11 +67,9 @@ public interface Calculator {
 	int getMinimum();
 	
 	void addValue(int i);
-<<<<<<< HEAD
+
 
 	int sum();
 
-=======
-	int sum();
->>>>>>> origin/implSumMethod
+
 }
