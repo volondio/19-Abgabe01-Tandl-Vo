@@ -18,6 +18,7 @@ public class Main {
 		// output highest number
 		
 		// output sum of all numbers
+		calc.sum();
 
 	}
 

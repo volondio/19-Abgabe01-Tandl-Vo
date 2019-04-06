@@ -68,4 +68,6 @@ public interface Calculator {
 	
 	void addValue(int i);
 
+	int sum();
+
 }
