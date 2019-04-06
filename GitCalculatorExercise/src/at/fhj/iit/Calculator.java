@@ -67,5 +67,5 @@ public interface Calculator {
 	int getMinimum();
 	
 	void addValue(int i);
-
+	int sum();
 }

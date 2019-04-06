@@ -35,4 +35,13 @@ public class CalculatorImpl implements Calculator {
     public void addValue(int i) {
         list.add(i);
     }
+    @Override
+    public int sum() {
+        int sum = 0;
+        for (int i : list){
+            sum += i;
+        }
+        System.out.println("Sum: " + sum);
+        return sum;
+    }
 }
